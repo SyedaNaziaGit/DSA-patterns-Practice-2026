@@ -10,6 +10,7 @@ Example 2:
 Input: digits = "2"
 Output: ["a","b","c"]
 '''
+from typing import List
 class Solution:
     def letterCombinations(self, digits: str) -> List[str]:
         if not digits:
